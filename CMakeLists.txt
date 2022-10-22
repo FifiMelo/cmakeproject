@@ -8,4 +8,4 @@ project(mygame)
 
 include(${CMAKE_CURRENT_SOURCE_DIR}/external/external.cmake)
 add_executable(mygame main.cpp)
-target_link_libraries(mygame PRIVATE SDL2)
+target_link_libraries(mygame PRIVATE SDL2main SDL2-static)
